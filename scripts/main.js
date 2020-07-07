@@ -14,7 +14,7 @@ Draw.blend(Blending.additive);
 const arr = Object.keys(Pal);
 
 Events.on(EventType.Trigger.update, run(()=>{
-    for(var i=0;i<arr.length;i++){
+    for(var i = 0;i < arr.length; i++){
         try{
             Pal[arr[i]] = Pal[arr[i]].shiftHue(0.2);
         }
