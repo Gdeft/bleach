@@ -1,8 +1,8 @@
 {
   "name": "bleach",
   "displayName": "[white]Bleach",
-  "description": "[royal]1.1.2: Sonnicon's shader magic and patches[]\n\nBleaches the game. [red]https://github.com/Gdeft/bleach#disabling[]",
+  "description": "[royal]1.2: sk7725's pallete magic thing[]\n\nBleaches the game. [red]https://github.com/Gdeft/bleach#disabling[]",
   "author": "Gdeft",
-  "version": "[accent]1.1.2[]",
+  "version": "[accent]1.2[]",
   "hidden": true
 }
