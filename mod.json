@@ -1,8 +1,9 @@
 {
-  "name": "bleach",
-  "displayName": "[white]Bleach",
-  "description": "[royal]1.2: sk7725's pallete magic thing[]\n\nBleaches the game. [red]https://github.com/Gdeft/bleach#disabling[]",
-  "author": "Gdeft",
-  "version": "[accent]1.2[]",
-  "hidden": true
+	"name": "bleach",
+	"displayName": "Bleach",
+	"description": "Bleaches the game, nothing suspicious at all.",
+	"author": "Gdeft",
+	"version": "1.3",
+	"minGameVersion": "105",
+	"hidden": true,
 }
