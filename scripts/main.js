@@ -29,7 +29,7 @@ Events.on(ClientLoadEvent, e => {
 	music.setLooping(true);
 	music.play();
 
-	shader = new Shader(readString("shaders/bleach.vert"), readString("shaders/bleach.frag"));
+	shader = new Shader(readString("shaders/screenspace.vert"), readString("shaders/bleach.frag"));
 });
 
 Events.run(Trigger.preDraw, () => beginDraw());
