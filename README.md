@@ -66,6 +66,6 @@ Events.on(EventType.Trigger.update, run(()=>{
 }));
 ```
 
-# 1.3.2: 6.0 Fix (DeltaNedas)
+### 1.3.2: 6.0 Fix (DeltaNedas)
 
-# 1.3.3: Epilepsy
+### 1.3.3: Epilepsy
