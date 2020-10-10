@@ -39,7 +39,7 @@ Draw.shader(shader);
 Draw.blend(Blending.additive);
 ```
 
-### 1.2: sk7725's magic (?)
+### 1.2: sk7725's magic (sk7725)
 ```js
 if(!Vars.headless){
 	importPackage(Packages.arc.graphics.gl);
@@ -66,4 +66,6 @@ Events.on(EventType.Trigger.update, run(()=>{
 }));
 ```
 
-# 1.3.2: fix for 6.0
+# 1.3.2: 6.0 Fix (DeltaNedas)
+
+# 1.3.3: Epilepsy

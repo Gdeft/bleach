@@ -3,8 +3,7 @@ var buffer, shader;
 
 const beginDraw = () => {
 	buffer.resize(Core.graphics.width, Core.graphics.height);
-	// crash
-//	buffer.begin(Color.clear);
+	buffer.begin(Color.clear);
 };
 
 const endDraw = () => {
@@ -28,13 +27,13 @@ Events.on(ClientLoadEvent, e => {
 	music.play();
 
 	buffer = new FrameBuffer(Core.graphics.width, Core.graphics.height);
-	shader = new Shader(readString("shaders/bleach.vert"), readString("shaders/bleach.frag"));
+	shader = new Shader(readString("shaders/screenspace.vert"), readString("shaders/bleach.frag"));
 });
 
 Events.run(Trigger.preDraw, beginDraw);
 
 Events.run(Trigger.uiDrawBegin, () => {
-	if (Vars.state.isMenu()) {
+	if(Vars.state.isMenu()){
 		beginDraw();
 	}
 });
