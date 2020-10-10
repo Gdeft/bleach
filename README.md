@@ -65,3 +65,5 @@ Events.on(EventType.Trigger.update, run(()=>{
     }
 }));
 ```
+
+# 1.3.2: fix for 6.0
