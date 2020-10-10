@@ -10,7 +10,7 @@ const endDraw = () => {
 	buffer.end();
 
 	shader.bind();
-	shader.setUniformf("u_time", Time.globalTime() / Scl.scl(1.0));
+	shader.setUniformf("u_time", Time.globalTime());
 
 	Draw.blend(Blending.additive);
 	Draw.blit(buffer, shader);
