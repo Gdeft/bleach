@@ -1,7 +1,7 @@
 # Bleach
 Bleaches the game.
 
-## Version
+## Changelog
 
 ### 1.4: Port to 6.0
 ```js
