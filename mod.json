@@ -1,7 +1,7 @@
 {
 	"name": "bleach",
 	"displayName": "Bleach",
-	"description": "Bleaches the game, nothing suspicious at all.",
+	"description": "Bleaches the game, nothing suspicious at all.\nAlso try DeltaNedas/yes!",
 	"author": "Gdeft",
 	"version": "1.4",
 	"minGameVersion": "120",
